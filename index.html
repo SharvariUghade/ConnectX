@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConnectX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login/Signup Page -->
+  <div class="login-page" id="loginPage">
+    <div class="form">
+      <h2>Login</h2>
+      <input type="text" placeholder="UCN No." id="username">
+      <input type="password" placeholder="Password" id="password">
+      <input type="text" placeholder="Email" id="email">
+      <button onclick="login()">Login</button>
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+  </div>
+
+  <!-- Main Website Page (Initially Hidden) -->
+  <div class="main-page" id="mainPage" style="display: none;">
+    
+    <!-- Navbar -->
+    <header>
+      <div class="logo">
+        <h1> CONNECTX </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Search</a></li>
+          <li><a href="#"> Event Calendar</a></li>
+          <li><a href="#"> Discussion Section</a></li>
+          <li><a href="#"> Q&A Section</a></li>
+          <li><a href="#"> Complaint Box</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Success Is Best When Shared</h2>
+      <p class="text"><i><b></b>Connect, Collaborate, and Thrive CampusSync--- Where every student's voice creates a vibrant community.</i></b></p>
+      <button class="post-button">ADD YOUR INFO </button>
+      <button class="post-button">NOTIFICATION </button>
+      <button class="post-button">REQUEST</button>
+    </section>
+
+    <!-- Featured Look Section -->
+    <section class="featured-look">
+      <h3>About Us</h3>
+      <p><b>CampusSync is all about fostering connections and enhancing collaboration among students.</b></p>
+      <p><b>Expand your connections and collaborate with fellow students.</b></p>
+      <p><b>Stay informed and share ideas.</b></p>
+    </section>
+
+    <!-- Trending Fashion Section -->
+    <section class="trending-section">
+      <h3>YEARS</h3>
+      <div class="trend-item">
+        <p>FIRST YEAR</p>
+      </div>
+      
+      <div class="trend-item">
+        <p>SECOND YEAR</p>
+      </div>
+      <div class="trend-item">
+        <p> THIRD YEAR </p>
+      </div>
+      <div class="trend-item">
+        <p>BTECH</p>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h3>Student Testimonials</h3>
+      <p>"A holistic platform where students can exchange knowledge, collaborate and build a stronger community!!"</p>
+      <p>"Great platform to connect with the seniors!"</p>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
